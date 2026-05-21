@@ -90,11 +90,11 @@
       hsl(260, 50%, 96%) 100%
     );
 
-    /* pattern craft */
-    --gradient-purple: radial-gradient(
-      125% 125% at 50% 10%,
-      hsla(0, 0%, 100%, 1) 40%,
-      hsla(262, 83%, 58%, 0.5) 100%
+    /* Orange soft glow background */
+    --gradient-orange-soft-glow: radial-gradient(
+      circle at center,
+      rgb(255 113 18 / 30%),
+      transparent
     );
 
     /* Shadows */
@@ -188,7 +188,7 @@
       hsl(240, 15%, 18%) 100%
     );
 
-    --gradient-purple: radial-gradient(
+    --gradient-orange-soft-glow: radial-gradient(
       125% 125% at 50% 10%,
       hsla(0, 0%, 0%, 1) 40%,
       hsla(310, 96%, 11%, 0.5) 100%
@@ -263,8 +263,13 @@
     background: var(--gradient-glass);
   }
 
-  .bg-gradient-purple {
-    background: var(--gradient-purple);
+  .bg-orange-soft-glow {
+    background-color: #ffffff;
+    background-image: var(--gradient-orange-soft-glow);
+  }
+
+  .dark .bg-orange-soft-glow {
+    background-color: hsl(var(--background));
   }
 
   /* Shadows */

@@ -22,17 +22,19 @@
         fill="url(#connectlyOrange)" 
         filter="url(#smoothShadow)"/>
   
-  <path d="M 330, 165 C 210, 165 170, 215 170, 256 C 170, 297 210, 347 330, 347" 
-        fill="none" 
-        stroke="#FFFFFF" 
-        stroke-width="32" 
-        stroke-linecap="round" 
-        stroke-linejoin="round"/>
-  
-  <circle cx="330" cy="165" r="16" fill="#FFFFFF" />
-  <circle cx="330" cy="347" r="16" fill="#FFFFFF" />
-  
-  <circle cx="245" cy="256" r="12" fill="#FFFFFF" opacity="0.95" />
-  <circle cx="290" cy="256" r="12" fill="#FFFFFF" opacity="0.65" />
-  <circle cx="335" cy="256" r="12" fill="#FFFFFF" opacity="0.35" />
+  <g transform="translate(0, -22)">
+    <path d="M 330, 165 C 210, 165 170, 215 170, 256 C 170, 297 210, 347 330, 347" 
+          fill="none" 
+          stroke="#FFFFFF" 
+          stroke-width="32" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <circle cx="330" cy="165" r="16" fill="#FFFFFF" />
+    <circle cx="330" cy="347" r="16" fill="#FFFFFF" />
+    
+    <circle cx="245" cy="256" r="12" fill="#FFFFFF" opacity="0.95" />
+    <circle cx="290" cy="256" r="12" fill="#FFFFFF" opacity="0.65" />
+    <circle cx="335" cy="256" r="12" fill="#FFFFFF" opacity="0.35" />
+  </g>
 </svg>
