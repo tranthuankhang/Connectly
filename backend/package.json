@@ -12,9 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
     "cors": "latest",
     "dotenv": "latest",
-    "express": "latest"
+    "express": "latest",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.2"
   },
   "devDependencies": {
     "nodemon": "latest"
